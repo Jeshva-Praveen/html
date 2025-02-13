@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Embedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .media {
+            margin: 20px 0;
+            text-align: center;
+        }
+        video, audio {
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Embedding Audio and Video</h1>
+
+    <div class="media">
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="example-audio.mp3" type="audio/mpeg">
+            <source src="example-audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <div class="media">
+        <h2>Video Example</h2>
+        <video controls>
+            <source src="example-video.mp4" type="video/mp4">
+            <source src="example-video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>

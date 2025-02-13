@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Styles Example</title>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        h1 {
+            color: #007BFF;
+            color: #28a745;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Style Specification Formats</h1>
+
+    <!-- Inline Styles -->
+    <p style="color: #dc3545; font-size: 25px; text-align: center;">
+        This paragraph uses <strong>inline styles</strong> to set color, font size, and alignment.
+    </p>
+
+    <!-- Internal Styles -->
+    <p class="internal-style">
+        This paragraph uses <strong>internal styles</strong> defined in the &lt;style&gt; tag inside the &lt;head&gt;.
+    </p>
+
+    <!-- External Styles -->
+    <p class="external-style">
+        This paragraph uses <strong>external styles</strong> defined in an external CSS file.
+    </p>
+</body>
+</html>

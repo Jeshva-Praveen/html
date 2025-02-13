@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        article {
+            flex: 2;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        aside {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #f1f1f1;
+        }
+        figure {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        span.highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <article>
+        <h2>About Us</h2>
+        <p>
+            Welcome to our website! We are dedicated to providing the best services to our customers.
+            Learn more about our journey and values. Here is a word with a <span class="highlight">highlight</span> effect.
+        </p>
+        <figure>
+            <img src="example.jpg" alt="Example Image" style="width:100%; max-width:400px;">
+            <figcaption>Our Team at Work</figcaption>
+        </figure>
+    </article>
+
+    <aside>
+        <h3>Latest News</h3>
+        <p>Check out our latest updates in the website.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
